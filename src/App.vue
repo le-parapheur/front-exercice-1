@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from 'vue-router';
     <header>
         <nav class="is-flex is-justify-content-flex-end">
             <RouterLink to="/">Tableau de bord</RouterLink>
-            <RouterLink to="/about">A propos</RouterLink>
+            <RouterLink to="/about">Instructions</RouterLink>
         </nav>
     </header>
 
