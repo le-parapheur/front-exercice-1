@@ -24,12 +24,12 @@ const columns = [
                 <div class="box">
                     Nom : Première carte
                     <br>
-                    Contact : Jean Paul Smith
+                    Lieu : Boulevard de la mairie
                 </div>
                 <div class="box">
                     Nom : Seconde carte
                     <br>
-                    Contact : Jean Rocheford
+                    Lieu : Rue de la paix
                 </div>
             </div>
             <div class="is-flex is-flex-direction-column">
@@ -37,12 +37,12 @@ const columns = [
                 <div class="box">
                     Nom : 3e carte
                     <br>
-                    Contact : Jean Paul Smith
+                    Lieu : Boulevard de la mairie
                 </div>
                 <div class="box">
                     Nom : 4e carte
                     <br>
-                    Contact : Jean Rocheford
+                    Lieu : Rue de la paix
                 </div>
             </div>
         </div>

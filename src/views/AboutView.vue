@@ -22,24 +22,36 @@
                 <li>
                     Comprendre les packages déjà installés, les utiliser et si nécessaire en rajouter d'autres;
                 </li>
-                <li>Améliorer la gestion des colonnes (en rajouter d'autres en plus des 2 initiales);</li>
+                <li>Améliorer la gestion des colonnes (en rajouter d'autres en plus des 2 initiales) (créer le component Column.vue + Card.vue);</li>
                 <li>
-                    Adapter le bouton de création de tâche et créer une fonction sur le tableau de bord pour créer une nouvelle carte. D'un point de vue UX, une dialogue est attendue mais pas obligatoire;
+                    Adapter le bouton de création de tâche et créer une fonction sur le tableau de bord pour créer une nouvelle carte. D'un point de vue UX, une dialogue est attendue;
                 </li>
                 <li>
                     Lors de la création de la carte, l'utilisateur peut préciser le nom, le lieu et la colonne (une carte peut ainsi être créée d'office dans la colonne 3);
                 </li>
                 <li>Lorsque l'user clique sur une carte, il peut modifier ces infos et les sauvegarder;</li>
-                <li>L'user peut changer facilement une carte de colonne. Un drag & drop est attendu mais pas obligatoire;</li>
+                <li>L'user peut changer facilement une carte de colonne. Un drag & drop est attendu (Sortable.js);</li>
                 <li>L'UX devra être améliorée. Un framework CSS est déjà utilisé mais n'est pas obligatoire;</li>
-                <li><strong>Le sujet de la réactivité est primordiale. Les infos d'un côté doivent être retrouvées de l'autre côté. Un package, pinia, est déjà installé, il est fortement conseillé de l'utiliser.</strong></li>
+                <li><strong>Le sujet de la réactivité est primordiale. Les infos d'un côté doivent être retrouvées de l'autre côté. Un package pour gérer le store, pinia, est déjà installé, il est fortement conseillé de l'utiliser.</strong></li>
             </ol>
         </div>
         <br>
         <p>
-            <strong>Pour aller plus loin</strong>, il est possible d'utiliser une BDD type Firebase ou Supabase, si le timing le permet. Ce n'est pas obligatoire.
-            Idem pour l'authentification, cela n'a pas être gérée pour le moment (mais des idées peuvent être mentionnées).
+            <strong>Pour aller plus loin</strong>, il est possible d'implémenter une BDD type Firebase ou Supabase, si le timing le permet. Ce n'est pas obligatoire ni une nécessité.
         </p>
+        <br>
+        <div>
+            Ce qui va être jugée à la fin :
+            <ol>
+                <li>La bonne décomposition des components;</li>
+                <li>La communication entre les components (store, parent/children, cf docs vueJS);</li>
+                <li>Respect des normes VueJS et Typescript, gestion des types et interfaces Typescript;</li>
+                <li>La bonne utilisation des packages (Pinia, SortableJS, BulmaCSS);</li>
+                <li>Secondaire mais non négligeable : le design final;</li>
+            </ol>
+        </div>
+        <br>
+        <div>Encore merci de prendre du temps pour cet exercice !</div>
     </div>
 </template>
 
@@ -50,10 +62,12 @@
 }
 #board-image {
     width: 100%;
-    max-width: calc(1179px / 1.2);
+    max-width: 50vw;
     height: auto;
 }
 ol {
     margin-left: 2em;
 }
 </style>
+<script setup lang="ts">
+</script>
